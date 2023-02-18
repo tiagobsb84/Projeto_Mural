@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './componente/cabecalho/cabecalho.component';
 import { FooterComponent } from './componente/footer/footer.component';
+import { CriarPensamentoComponent } from './componente/pensamentos/criar-pensamento/criar-pensamento.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
-    FooterComponent
+    FooterComponent,
+    CriarPensamentoComponent
   ],
   imports: [
     BrowserModule,
