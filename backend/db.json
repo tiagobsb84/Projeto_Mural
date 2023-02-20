@@ -1,22 +1,16 @@
 {
-    "pensamentos": [
-        {
-            "id": 1,
-            "conteudo": "Angular usando TypeScript",
-            "autoria": "Tiago",
-            "modelo": "modelo1"
-        },
-        {
-            "id": 2,
-            "conteudo": "Java com Spring Boot",
-            "autoria": "Tiago",
-            "modelo": "modelo2"
-        },
-        {
-            "id": 3,
-            "conteudo": "Legião Urbana",
-            "autoria": "Tiago",
-            "modelo": "modelo3"
-        }
-    ]
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Angular usando TypeScript",
+      "autoria": "Tiago",
+      "modelo": "modelo1"
+    },
+    {
+      "conteudo": "System of Down",
+      "autoria": "Tiago",
+      "modelo": "modelo1",
+      "id": 2
+    }
+  ]
 }
