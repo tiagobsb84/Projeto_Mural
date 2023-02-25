@@ -3,24 +3,34 @@
         <h2>Adicione um <br>pensamento novo:</h2>
     </header>
     <form [formGroup]="formulario">
-        <label for="pensamento">Pensamento</label>
-        <input 
-            type="textarea" 
+        <label for="conteudo">Pensamento</label>
+        <input
+            type="textarea"
             class="input"
-            id="pensamento"
-            formControlName="pensamento"
+            id="conteudo"
+            formControlName="conteudo"
             placeholder="Digite o pensamento"
         >
-
+        <div class="mensagem__erro" *ngIf="formulario.get('conteudo')?.errors?.['required'] && formulario.get('conteudo')?.touched">
+            Conteúdo é obrigatório!
+        </div>
+        <div class="mensagem__erro" *ngIf="formulario.get('conteudo')?.errors?.['minlenght'] && formulario.get('conteudo')?.touched">
+            Conteúdo precisa ter no mínimo 3 caracteres!
+        </div>
         <label for="autoria">Autoria</label>
-        <input 
-            type="text" 
+        <input
+            type="text"
             class="input"
             id="autoria"
             formControlName="autoria"
             placeholder="Digite o autoria ou fonte"
         >
-
+        <div class="mensagem__erro" *ngIf="formulario.get('autoria')?.errors?.['required'] && formulario.get('autoria')?.touched">
+            Autoria é obrigatório!
+        </div>
+        <div class="mensagem__erro" *ngIf="formulario.get('autoria')?.errors?.['minlength'] && formulario.get('autoria')?.touched">
+            Autoria precisa ter no mínimo 3 caracteres!
+        </div>
         <label for="modelo">Selecione o modelo do card:</label>
         <div class="container-radio">
             <div class="radio-modelo">
@@ -72,7 +82,7 @@
             </div>
         </div>
         <div class="acoes">
-            <button (click)="criarPensamento()" class="botao">Salvar</button>
+            <button [disabled]="!formulario.valid" [ngClass]="habilitarBotao()" (click)="criarPensamento()">Salvar</button>
             <button (click)="cancelarPensamento()" routerLink="/" class="botao">Cancelar</button>
         </div>
     </form>
