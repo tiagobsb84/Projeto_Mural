@@ -29,6 +29,24 @@
       "autoria": "Legião Urbana",
       "modelo": "modelo2",
       "id": 5
+    },
+    {
+      "conteudo": "AMD",
+      "autoria": "Intel",
+      "modelo": "modelo3",
+      "id": 6
+    },
+    {
+      "conteudo": "Java",
+      "autoria": "Java",
+      "modelo": "modelo1",
+      "id": 7
+    },
+    {
+      "conteudo": "Spring Boot",
+      "autoria": "Spring",
+      "modelo": "modelo2",
+      "id": 8
     }
   ]
 }
