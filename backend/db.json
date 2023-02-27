@@ -1,109 +1,81 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Angular usando TypeScript",
-      "autoria": "Tiago",
+      "conteudo": "Tente mover o mundo – o primeiro passo será mover a si mesmo.",
+      "autoria": "Platão",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 1
+    },
+    {
+      "conteudo": "O homem superior atribui a culpa a si próprio; o homem comum, aos outros.",
+      "autoria": "Confúcio",
+      "modelo": "modelo3",
+      "favorito": true,
+      "id": 2
+    },
+    {
+      "conteudo": "Quando vires um homem bom, tenta imitá-lo; quando vires um homem mau, examina-te a ti mesmo.",
+      "autoria": "Confúcio",
       "modelo": "modelo1",
-      "favorito": false
-    },
-    {
-      "id": 2,
-      "conteudo": "Hello Angular",
-      "autoria": "TSO",
-      "modelo": "modelo3",
-      "favorito": false
-    },
-    {
-      "conteudo": "Formulario reativo",
-      "autoria": "TSO",
-      "modelo": "modelo3",
       "favorito": false,
       "id": 3
     },
     {
-      "conteudo": "O mundo não o bastante",
-      "autoria": "007",
-      "modelo": "modelo1",
-      "favorito": false,
+      "conteudo": "O sábio nunca diz tudo o que pensa, mas pensa sempre tudo o que diz.",
+      "autoria": "Aristóteles",
+      "modelo": "modelo2",
+      "favorito": true,
       "id": 4
     },
     {
-      "conteudo": "Eduardo e Mônica",
-      "autoria": "Legião Urbana",
-      "modelo": "modelo2",
+      "conteudo": "O atrativo do conhecimento seria pequeno se no caminho que a ele conduz não houvesse que vencer tanto pudor.",
+      "autoria": "Friedrich Nietzsche",
+      "modelo": "modelo1",
       "favorito": false,
       "id": 5
     },
     {
-      "conteudo": "AMD",
-      "autoria": "Intel",
+      "conteudo": "Podes conhecer o espírito de qualquer pessoa, se observares como ela se comporta ao elogiar e receber elogios.",
+      "autoria": "Sêneca",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 6
     },
     {
-      "conteudo": "Java",
-      "autoria": "Java",
-      "modelo": "modelo1",
+      "conteudo": "O cansaço físico, mesmo que suportado forçosamente, não prejudica o corpo, enquanto o conhecimento imposto à força não pode permanecer na alma por muito tempo.",
+      "autoria": "Platão",
+      "modelo": "modelo2",
       "favorito": false,
       "id": 7
     },
     {
-      "id": 8,
-      "conteudo": "Spring Boot",
-      "autoria": "Spring",
-      "modelo": "modelo2",
-      "favorito": false
+      "conteudo": "Eu não procuro saber as respostas, procuro compreender as perguntas.",
+      "autoria": "Confúcio",
+      "modelo": "modelo1",
+      "favorito": true,
+      "id": 8
     },
     {
-      "conteudo": "Creio que aqueles que mais entendem de felicidade são as borboletas e as bolhas de sabão.",
-      "autoria": "Friedrich Nietzsche",
+      "conteudo": "O ignorante afirma, o sábio duvida, o sensato reflete.",
+      "autoria": "Aristóteles",
       "modelo": "modelo3",
       "favorito": true,
       "id": 9
     },
     {
-      "conteudo": "O ignorante afirma, o sábio duvida, o sensato reflete.",
-      "autoria": "Aristóteles",
+      "conteudo": "Existe apenas um único problema filosófico realmente sério: o suicídio. Julgar se a vida vale ou não a pena ser vivida significa responder à questão fundamental da filosofia.",
+      "autoria": "Albert Camus",
       "modelo": "modelo2",
       "favorito": true,
       "id": 10
     },
     {
-      "conteudo": "Uma vida não questionada não merece ser vivida.",
+      "conteudo": "... os males não cessarão para os humanos antes que a raça dos puros e autênticos filósofos chegue ao poder, ou antes, que os chefes das cidades, por uma divina graça, ponham-se a filosofar verdadeiramente.",
       "autoria": "Platão",
-      "modelo": "modelo3",
-      "favorito": true,
-      "id": 11
-    },
-    {
-      "conteudo": "Eu não procuro saber as respostas, procuro compreender as perguntas.",
-      "autoria": "Confúcio",
-      "modelo": "modelo3",
-      "favorito": false,
-      "id": 12
-    },
-    {
-      "conteudo": "O sábio nunca diz tudo o que pensa, mas pensa sempre tudo o que diz.",
-      "autoria": "Aristóteles",
-      "modelo": "modelo3",
-      "favorito": true,
-      "id": 13
-    },
-    {
-      "conteudo": "Exige muito de ti e espera pouco dos outros. Assim, evitarás muitos aborrecimentos.",
-      "autoria": "Confúcio",
       "modelo": "modelo2",
       "favorito": true,
-      "id": 14
-    },
-    {
-      "conteudo": "Tente mover o mundo – o primeiro passo será mover a si mesmo.",
-      "autoria": "Platão",
-      "modelo": "modelo3",
-      "favorito": false,
-      "id": 15
+      "id": 11
     }
   ]
 }
