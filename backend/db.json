@@ -5,7 +5,7 @@
       "conteudo": "Angular usando TypeScript",
       "autoria": "Tiago",
       "modelo": "modelo1",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "conteudo": "Formulario reativo",
       "autoria": "TSO",
       "modelo": "modelo3",
-      "favorito": true,
+      "favorito": false,
       "id": 3
     },
     {
@@ -39,7 +39,7 @@
       "conteudo": "AMD",
       "autoria": "Intel",
       "modelo": "modelo3",
-      "favorito": true,
+      "favorito": false,
       "id": 6
     },
     {
@@ -54,7 +54,7 @@
       "conteudo": "Spring Boot",
       "autoria": "Spring",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "conteudo": "Creio que aqueles que mais entendem de felicidade são as borboletas e as bolhas de sabão.",
