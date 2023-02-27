@@ -14,12 +14,13 @@ export class ExcluirPensamentoComponent implements OnInit {
     id: 0,
     conteudo: '',
     autoria: '',
-    modelo: ''
+    modelo: '',
+    favorito: false
   }
 
   constructor(
-    private service: PensamentoService, 
-    private router: Router, 
+    private service: PensamentoService,
+    private router: Router,
     private route: ActivatedRoute
   ) {}
 
